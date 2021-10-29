@@ -11,14 +11,19 @@
         <body>
             
                 <h1 >Todo list </h1>
+
                 <input type="text" id="task">
+
                 <button id="add"  onclick="add();" > add </button>
 
-                <button id="update"  onclick="update();" > update </button>
+                <button id="update"     style="display: none;"  onclick="edit();"   > update </button>
 
-                <ul id="res"></ul>
+                <input type="hidden" id="edit" >
 
-                <input type="hidden" id="edit">
+                <ul id="res"> </ul>
+
+
+
 
 
             <script src="./main.js"></script>
